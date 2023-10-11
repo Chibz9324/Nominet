@@ -11,6 +11,6 @@ public class Nominet {
 		driver.get("https://www.nominet.uk/lookup/");
 		driver.findElement(By.id("rdapLookup")).sendKeys("monster.wales");
 		driver.findElement(By.id("gtm-rdap-click")).click();
-		//^ Above navigates to the site to make a search query. 
+		//^ Above navigates to the site to make a search query 
 	}
 }
